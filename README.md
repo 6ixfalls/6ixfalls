@@ -10,9 +10,9 @@
 
 ## Recent GitHub Activity
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#5](https://github.com/xan105/node-processMonitor/issues/5) in [xan105/node-processMonitor](https://github.com/xan105/node-processMonitor)
-2. 🗣 Commented on [#5](https://github.com/xan105/node-processMonitor/issues/5) in [xan105/node-processMonitor](https://github.com/xan105/node-processMonitor)
+1. 💪 Opened PR [#91](https://github.com/ironSource/node-regedit/pull/91) in [ironSource/node-regedit](https://github.com/ironSource/node-regedit)
+2. 🗣 Commented on [#72](https://github.com/ironSource/node-regedit/issues/72) in [ironSource/node-regedit](https://github.com/ironSource/node-regedit)
 3. 🗣 Commented on [#5](https://github.com/xan105/node-processMonitor/issues/5) in [xan105/node-processMonitor](https://github.com/xan105/node-processMonitor)
 4. 🗣 Commented on [#5](https://github.com/xan105/node-processMonitor/issues/5) in [xan105/node-processMonitor](https://github.com/xan105/node-processMonitor)
-5. ❗️ Opened issue [#5](https://github.com/xan105/node-processMonitor/issues/5) in [xan105/node-processMonitor](https://github.com/xan105/node-processMonitor)
+5. 🗣 Commented on [#5](https://github.com/xan105/node-processMonitor/issues/5) in [xan105/node-processMonitor](https://github.com/xan105/node-processMonitor)
 <!--END_SECTION:activity-->
