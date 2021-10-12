@@ -10,9 +10,9 @@
 
 ## Recent GitHub Activity
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#91](https://github.com/ironSource/node-regedit/issues/91) in [ironSource/node-regedit](https://github.com/ironSource/node-regedit)
-2. 💪 Opened PR [#91](https://github.com/ironSource/node-regedit/pull/91) in [ironSource/node-regedit](https://github.com/ironSource/node-regedit)
-3. 🗣 Commented on [#72](https://github.com/ironSource/node-regedit/issues/72) in [ironSource/node-regedit](https://github.com/ironSource/node-regedit)
-4. 🗣 Commented on [#5](https://github.com/xan105/node-processMonitor/issues/5) in [xan105/node-processMonitor](https://github.com/xan105/node-processMonitor)
-5. 🗣 Commented on [#5](https://github.com/xan105/node-processMonitor/issues/5) in [xan105/node-processMonitor](https://github.com/xan105/node-processMonitor)
+1. 🎉 Merged PR [#1](https://github.com/6ixfalls/sync-in-roblox/pull/1) in [6ixfalls/sync-in-roblox](https://github.com/6ixfalls/sync-in-roblox)
+2. 🗣 Commented on [#1](https://github.com/6ixfalls/sync-in-roblox/issues/1) in [6ixfalls/sync-in-roblox](https://github.com/6ixfalls/sync-in-roblox)
+3. 🎉 Merged PR [#2](https://github.com/6ixfalls/sync-in-roblox/pull/2) in [6ixfalls/sync-in-roblox](https://github.com/6ixfalls/sync-in-roblox)
+4. 🗣 Commented on [#91](https://github.com/ironSource/node-regedit/issues/91) in [ironSource/node-regedit](https://github.com/ironSource/node-regedit)
+5. 💪 Opened PR [#91](https://github.com/ironSource/node-regedit/pull/91) in [ironSource/node-regedit](https://github.com/ironSource/node-regedit)
 <!--END_SECTION:activity-->
