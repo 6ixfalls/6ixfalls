@@ -10,9 +10,9 @@
 
 ## Recent GitHub Activity
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#3](https://github.com/6ixfalls/sync-in-roblox/pull/3) in [6ixfalls/sync-in-roblox](https://github.com/6ixfalls/sync-in-roblox)
-2. 🎉 Merged PR [#1](https://github.com/6ixfalls/sync-in-roblox/pull/1) in [6ixfalls/sync-in-roblox](https://github.com/6ixfalls/sync-in-roblox)
-3. 🗣 Commented on [#1](https://github.com/6ixfalls/sync-in-roblox/issues/1) in [6ixfalls/sync-in-roblox](https://github.com/6ixfalls/sync-in-roblox)
-4. 🎉 Merged PR [#2](https://github.com/6ixfalls/sync-in-roblox/pull/2) in [6ixfalls/sync-in-roblox](https://github.com/6ixfalls/sync-in-roblox)
-5. 🗣 Commented on [#91](https://github.com/ironSource/node-regedit/issues/91) in [ironSource/node-regedit](https://github.com/ironSource/node-regedit)
+1. 🎉 Merged PR [#4](https://github.com/6ixfalls/sync-in-roblox/pull/4) in [6ixfalls/sync-in-roblox](https://github.com/6ixfalls/sync-in-roblox)
+2. 🎉 Merged PR [#3](https://github.com/6ixfalls/sync-in-roblox/pull/3) in [6ixfalls/sync-in-roblox](https://github.com/6ixfalls/sync-in-roblox)
+3. 🎉 Merged PR [#1](https://github.com/6ixfalls/sync-in-roblox/pull/1) in [6ixfalls/sync-in-roblox](https://github.com/6ixfalls/sync-in-roblox)
+4. 🗣 Commented on [#1](https://github.com/6ixfalls/sync-in-roblox/issues/1) in [6ixfalls/sync-in-roblox](https://github.com/6ixfalls/sync-in-roblox)
+5. 🎉 Merged PR [#2](https://github.com/6ixfalls/sync-in-roblox/pull/2) in [6ixfalls/sync-in-roblox](https://github.com/6ixfalls/sync-in-roblox)
 <!--END_SECTION:activity-->
