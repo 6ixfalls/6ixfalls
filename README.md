@@ -10,9 +10,9 @@
 
 ## Recent GitHub Activity
 <!--START_SECTION:activity-->
-1. ❗️ Closed issue [#1](https://github.com/6ixfalls/AstrahacksProject2/issues/1) in [6ixfalls/AstrahacksProject2](https://github.com/6ixfalls/AstrahacksProject2)
-2. 🗣 Commented on [#1](https://github.com/6ixfalls/AstrahacksProject2/issues/1) in [6ixfalls/AstrahacksProject2](https://github.com/6ixfalls/AstrahacksProject2)
-3. 🎉 Merged PR [#9](https://github.com/6ixfalls/sync-in-roblox/pull/9) in [6ixfalls/sync-in-roblox](https://github.com/6ixfalls/sync-in-roblox)
-4. 🎉 Merged PR [#8](https://github.com/6ixfalls/sync-in-roblox/pull/8) in [6ixfalls/sync-in-roblox](https://github.com/6ixfalls/sync-in-roblox)
-5. 🎉 Merged PR [#5](https://github.com/6ixfalls/sync-in-roblox/pull/5) in [6ixfalls/sync-in-roblox](https://github.com/6ixfalls/sync-in-roblox)
+1. 🎉 Merged PR [#10](https://github.com/6ixfalls/sync-in-roblox/pull/10) in [6ixfalls/sync-in-roblox](https://github.com/6ixfalls/sync-in-roblox)
+2. ❗️ Closed issue [#1](https://github.com/6ixfalls/AstrahacksProject2/issues/1) in [6ixfalls/AstrahacksProject2](https://github.com/6ixfalls/AstrahacksProject2)
+3. 🗣 Commented on [#1](https://github.com/6ixfalls/AstrahacksProject2/issues/1) in [6ixfalls/AstrahacksProject2](https://github.com/6ixfalls/AstrahacksProject2)
+4. 🎉 Merged PR [#9](https://github.com/6ixfalls/sync-in-roblox/pull/9) in [6ixfalls/sync-in-roblox](https://github.com/6ixfalls/sync-in-roblox)
+5. 🎉 Merged PR [#8](https://github.com/6ixfalls/sync-in-roblox/pull/8) in [6ixfalls/sync-in-roblox](https://github.com/6ixfalls/sync-in-roblox)
 <!--END_SECTION:activity-->
