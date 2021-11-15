@@ -11,7 +11,7 @@
   &nbsp; &nbsp; &nbsp; &nbsp;
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img align="left" valign="top" alt="sixfalls' GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=6ixfalls&theme=github_dark&hide_border=true&border_radius=10" width="45%">
-    <img src="assets/space.svg" width="45%" height="20">
+    <img src="assets/space.svg" width="45%" height="10">
     <img align="left" valign="top" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=6ixfalls&theme=github_dark&hide_border=true&layout=compact&border_radius=10" width="45%">
   </a>
 </p>
