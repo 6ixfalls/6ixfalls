@@ -1,4 +1,4 @@
-const fetch = require("fetch");
+const fetch = require("node-fetch");
 const fs = require("fs");
 const path = require("path");
 
