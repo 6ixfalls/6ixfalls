@@ -5,13 +5,5 @@
 [![Discord](https://img.shields.io/badge/Discord-Profile-blue?style=for-the-badge&logo=Discord&logoColor=white)](https://discord.com/users/303173495918034945)
 
 <p align="center">
-  <a href="https://discord.com/users/303173495918034945">
-    <img align="left" valign="top" alt="Discord" src="https://lanyard-profile-readme.vercel.app/api/303173495918034945?bg=0D1117" width="45%">
-  </a>
-  &nbsp; &nbsp; &nbsp; &nbsp;
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="left" valign="top" alt="sixfalls' GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=6ixfalls&theme=github_dark&hide_border=true&border_radius=10" width="45%">
-    <img src="assets/space.svg" width="45%" height="10">
-    <img align="left" valign="top" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=6ixfalls&theme=github_dark&hide_border=true&layout=compact&border_radius=10" width="45%">
-  </a>
+  <img align="left" valign="top" src="assets/discord.svg" width="100%" height="200px">
 </p>
