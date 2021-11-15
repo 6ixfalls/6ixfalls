@@ -1,4 +1,4 @@
-const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
+const fetch = require("fetch");
 const fs = require("fs");
 const path = require("path");
 
