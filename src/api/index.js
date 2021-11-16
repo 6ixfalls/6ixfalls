@@ -1,6 +1,7 @@
 const fetch = require("node-fetch");
 const fs = require("fs");
 const path = require("path");
+const FileReader = require("filereader");
 
 async function getImageDataURL(url) {
     let blob = await fetch(url).then(r => r.blob());
