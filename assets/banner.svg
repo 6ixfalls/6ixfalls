@@ -7,7 +7,7 @@
                     <span>hi!</span>
                 </div>
                 <div style="float: left; width: 49%;" align="left" valign="top">
-                    <embed style="float: left;" align="left" valign="top" alt="sixfalls' GitHub Stats"
+                    <img style="float: left;" align="left" valign="top" alt="sixfalls' GitHub Stats"
                         src="{imageDataTwo}" width="100%" />
                     <img style="float: left;" align="left" valign="top" alt="Top Languages" src="{imageDataThree}"
                         width="100%" />

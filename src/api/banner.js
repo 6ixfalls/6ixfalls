@@ -10,7 +10,7 @@ async function getImageDataURL(url) {
 };
 
 const urlOne = "https://lanyard-profile-readme.vercel.app/api/303173495918034945?bg=0D1117"
-const urlTwo = "https://github-readme-stats.vercel.app/api?username=6ixfalls&theme=github_dark&hide_border=true&border_radius=10"
+const urlTwo = "https://github-readme-stats.vercel.app/api?username=6ixfalls&theme=github_dark&hide_border=true&border_radius=10&disable_animations=true"
 const urlThree = "https://github-readme-stats.vercel.app/api/top-langs/?username=6ixfalls&theme=github_dark&hide_border=true&layout=compact&border_radius=10"
 
 module.exports = async (req, res) => {
