@@ -5,3 +5,4 @@
 [![Discord](https://img.shields.io/badge/Discord-Profile-blue?style=for-the-badge&logo=Discord&logoColor=white)](https://discord.com/users/303173495918034945)
 
 <object data="http://6ixfalls.vercel.app/api" type="image/svg+xml" width="100%" height="750px">
+<img src="http://6ixfalls/vercel.app/api" width="100%" height="750px">
