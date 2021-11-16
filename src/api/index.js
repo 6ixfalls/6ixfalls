@@ -24,5 +24,6 @@ module.exports = async (req, res) => {
     banner = banner.replace(/{imageDataThree}/g, imageDataThree);
 
     res.setHeader("Cache-Control", "s-maxage=360, stale-while-revalidate=1000");
+    res.setHeader("Content-Type", "image/svg+xml");
     res.send(banner);
 }
