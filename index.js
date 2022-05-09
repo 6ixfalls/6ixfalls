@@ -104,6 +104,8 @@ Toolkit.run(
       .filter((repo) => repo.fork == false)
       // Call the serializer to construct a string
       .map((repo) => {
+        repo.size *= 1024;
+
         let updated = new Date(repo.updated_at);
         highestLength = Math.max(highestLength, repo.size.toString().length);
         return [
