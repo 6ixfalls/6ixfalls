@@ -16,15 +16,13 @@ I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua,
 <pre>
 ~ root# ls -o work/
 total 6
--rw-r--r-- 1 sixfalls  371 May 01 03:46 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
+-rw-r--r-- 1 sixfalls  382 May 01 03:46 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
 -rw-r--r-- 1 sixfalls 2215 Feb 05 04:52 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
 -rw-r--r-- 1 sixfalls  548 Oct 01 01:08 <a href="https://github.com/6ixfalls/AstrahacksProject2">astrahacksproject2.js</a>
 -rw-r--r-- 1 sixfalls   30 Apr 03 05:24 <a href="https://github.com/6ixfalls/QuickAbout">quickabout.js</a>
 -rw-r--r-- 1 sixfalls  470 Feb 06 20:14 <a href="https://github.com/6ixfalls/RPresence">rpresence.ts</a>
 -rw-r--r-- 1 sixfalls   56 Oct 05 01:17 <a href="https://github.com/6ixfalls/sync-in-roblox">sync-in-roblox.ts</a>
 </pre>
-<!--END_SECTION:projects-->
-<!--END_SECTION:projects-->
 <!--END_SECTION:projects-->
 
 [//]: <> (<img align="right" width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=6ixfalls&theme=github_dark&hide_border=true&layout=compact&border_radius=10">)
