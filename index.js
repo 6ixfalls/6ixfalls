@@ -184,7 +184,11 @@ Toolkit.run(
         line[1].replace(/\$size/g, line[0].padStart(highestLength, " "))
       )
       .join("\n");
-
+    tools.log.info(oldContent);
+    tools.log.info(newContent);
+    newContent.splice(startIdx + content.length, 0, ["<pre>", "~ root# ls -o work/", `total ${content.length}`]);
+    newContent.splice(startIdx + content.length + 1, 0, ["</pre>", "<!--END_SECTION:projects-->"]);
+    tools.log.info(newContent);
     if (oldContent.trim() === newContent.trim())
       tools.exit.success("No changes detected");
 
@@ -209,6 +213,7 @@ Toolkit.run(
       // It is likely that a newline is inserted after the <!--START_SECTION:activity--> comment (code formatter)
       let count = 0;
 
+      tools.log.info(readmeContent);
       readmeActivitySection.some((line, idx) => {
         // User doesn't have 5 public events
         if (!content[count]) {
@@ -222,6 +227,7 @@ Toolkit.run(
           count++;
         }
       });
+      tools.log.info(readmeContent);
       tools.log.success("Updated README with GitHub Repositories");
     }
 
