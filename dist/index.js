@@ -2395,32 +2395,15 @@ Toolkit.run(
     if (oldContent.trim() === newContent.trim())
       tools.exit.success("No changes detected");
 
-    startIdx += 2;
+    startIdx++;
 
     // Recent GitHub Activity content between the comments
-    const readmeActivitySection = readmeContent.slice(startIdx, endIdx);
+    const readmeActivitySection = readmeContent.splice(startIdx, endIdx - startIdx);
     tools.log.info(readmeActivitySection);
-    if (readmeActivitySection.length) {
-      // It is likely that a newline is inserted after the <!--START_SECTION:activity--> comment (code formatter)
-      let count = 0;
-
-      tools.log.info(readmeContent);
-      readmeActivitySection.some((line, idx) => {
-        // User doesn't have 5 public events
-        if (!content[count]) {
-          return true;
-        }
-        if (line !== "") {
-          readmeContent[startIdx + idx] = content[count][1].replace(
-            /\$size/g,
-            content[count][0].padStart(highestLength, " ")
-          );
-          count++;
-        }
-      });
-      tools.log.info(readmeContent);
-      tools.log.success("Updated README with GitHub Repositories");
-    }
+    tools.log.info(readmeContent);
+    readmeContent.splice(startIdx, 0, ...newContent);
+    tools.log.info(readmeContent);
+    tools.log.success("Updated README with GitHub Repositories");
 
     // Update README
     fs.writeFileSync("./README.md", readmeContent.join("\n"));
