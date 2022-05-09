@@ -2338,7 +2338,7 @@ Toolkit.run(
         let updated = new Date(repo.updated_at);
         highestLength = Math.max(highestLength, repo.size.toString().length);
         return [
-          repo.size,
+          repo.size.toString(),
           `-rw-r--r-- 1 sixfalls $size ${updated.toLocaleString("en-US", {
             month: "short",
           })} ${updated
@@ -2372,8 +2372,6 @@ Toolkit.run(
     const endIdx = readmeContent.findIndex(
       (content) => content.trim() === "<!--END_SECTION:projects-->"
     );
-
-    tools.log.debug("a");
 
     if (!content.length) {
       tools.exit.failure("No Repositories found");
