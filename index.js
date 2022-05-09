@@ -150,34 +150,6 @@ Toolkit.run(
       tools.log.info("Found less than 5 repositories");
     }
 
-    if (startIdx !== -1 && endIdx === -1) {
-      readmeContent.splice(startIdx + content.length, 0, ["<pre>", "~ root# ls -o work/", `total ${content.length}`]);
-      // Add one since the content needs to be inserted just after the initial comment
-      startIdx++;
-      content.forEach((line, idx) =>
-        readmeContent.splice(
-          startIdx + idx,
-          0,
-          line[1].replace(/\$size/g, line[0].padStart(highestLength, " "))
-        )
-      );
-
-      // Append <!--END_SECTION:projects--> comment
-      readmeContent.splice(startIdx + content.length, 0, ["</pre>", "<!--END_SECTION:projects-->"]);
-
-      // Update README
-      fs.writeFileSync("./README.md", readmeContent.join("\n"));
-
-      // Commit to the remote repository
-      try {
-        await commitFile();
-      } catch (err) {
-        tools.log.debug("Something went wrong");
-        return tools.exit.failure(err);
-      }
-      tools.exit.success("Wrote to README");
-    }
-
     const oldContent = readmeContent.slice(startIdx + 1, endIdx).join("\n");
     let newContent = content
       .map((line, idx) =>
@@ -185,8 +157,8 @@ Toolkit.run(
       );
     tools.log.info(oldContent);
     tools.log.info(newContent);
-    newContent.splice(startIdx, 0, ["<pre>", "~ root# ls -o work/", `total ${content.length}`]);
-    newContent.splice(startIdx + content.length, 0, ["</pre>", "<!--END_SECTION:projects-->"]);
+    newContent.unshift("<pre>", "~ root# ls -o work/", `total ${content.length}`);
+    newContent.push("</pre>", "<!--END_SECTION:projects-->");
     newContent = newContent.join("\n");
     tools.log.info(newContent);
     if (oldContent.trim() === newContent.trim())
@@ -196,20 +168,8 @@ Toolkit.run(
 
     // Recent GitHub Activity content between the comments
     const readmeActivitySection = readmeContent.slice(startIdx, endIdx);
-    if (!readmeActivitySection.length) {
-      content.some((line, idx) => {
-        // User doesn't have 5 public events
-        if (!line) {
-          return true;
-        }
-        readmeContent.splice(
-          startIdx + idx,
-          0,
-          line[1].replace(/\$size/g, line[0].padStart(highestLength, " "))
-        );
-      });
-      tools.log.success("Wrote to README");
-    } else {
+    tools.log.info(readmeActivitySection);
+    if (readmeActivitySection.length) {
       // It is likely that a newline is inserted after the <!--START_SECTION:activity--> comment (code formatter)
       let count = 0;
 
