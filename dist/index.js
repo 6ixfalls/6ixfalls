@@ -2338,6 +2338,7 @@ Toolkit.run(
       // Call the serializer to construct a string
       .map((repo) => {
         let updated = new Date(repo.updated_at);
+        tools.log.debug(repo.size.toString() + "s: " + repo.size);
         highestLength = Math.max(highestLength, repo.size.toString().length);
         return [
           repo.size,
@@ -2347,11 +2348,10 @@ Toolkit.run(
             .getDay()
             .toString()
             .padStart(2, "0")} ${updated.toLocaleTimeString("en-US", {
-            hour12: false,
-            hour: "2-digit",
-            minute: "2-digit",
-          })} <a href="${repo.html_url}">${
-            repo.name.toLowerCase() +
+              hour12: false,
+              hour: "2-digit",
+              minute: "2-digit",
+            })} <a href="${repo.html_url}">${repo.name.toLowerCase() +
             (repo.language ? languages[repo.language].extensions[0] : ".txt")
           }</a>`,
         ];
@@ -2375,6 +2375,8 @@ Toolkit.run(
     const endIdx = readmeContent.findIndex(
       (content) => content.trim() === "<!--END_SECTION:projects-->"
     );
+
+    tools.log.debug("a");
 
     if (!content.length) {
       tools.exit.failure("No Repositories found");
