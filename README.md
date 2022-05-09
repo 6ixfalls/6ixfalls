@@ -24,8 +24,6 @@ total 6
 -rw-r--r-- 1 sixfalls   56 Oct 05 01:17 <a href="https://github.com/6ixfalls/sync-in-roblox">sync-in-roblox.ts</a>
 </pre>
 <!--END_SECTION:projects-->
-<!--END_SECTION:projects-->
-<!--END_SECTION:projects-->
 
 [//]: <> (<img align="right" width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=6ixfalls&theme=github_dark&hide_border=true&layout=compact&border_radius=10">)
 [//]: <> (<a role="button" tabindex="0" href="#"><img src="http://6ixfalls.vercel.app/api/banner" width="100%" draggable="false"></a>)
