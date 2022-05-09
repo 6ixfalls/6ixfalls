@@ -179,15 +179,15 @@ Toolkit.run(
     }
 
     const oldContent = readmeContent.slice(startIdx + 1, endIdx).join("\n");
-    const newContent = content
+    let newContent = content
       .map((line, idx) =>
         line[1].replace(/\$size/g, line[0].padStart(highestLength, " "))
-      )
-      .join("\n");
+      );
     tools.log.info(oldContent);
     tools.log.info(newContent);
     newContent.splice(startIdx + content.length, 0, ["<pre>", "~ root# ls -o work/", `total ${content.length}`]);
     newContent.splice(startIdx + content.length + 1, 0, ["</pre>", "<!--END_SECTION:projects-->"]);
+    newContent = newContent.join("\n");
     tools.log.info(newContent);
     if (oldContent.trim() === newContent.trim())
       tools.exit.success("No changes detected");
