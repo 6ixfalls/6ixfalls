@@ -1,0 +1,39 @@
+name: Update README
+description: Update README with user data
+author: 6ixfalls
+
+inputs:
+  GH_USERNAME:
+    description: 'Your GitHub username'
+    default: ${{ github.repository_owner }}
+    required: false
+  COMMIT_MSG:
+    description: "Commit message used while committing to the repo"
+    default: ":zap: Update README with the recent activity"
+    required: false
+  MAX_LINES:
+    description: "The maximum number of lines populated in your readme file"
+    default: 5
+    required: false
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Update README with latest user data
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-code@v3
+      with:
+        node-version: 16.13.0
+      - run: node dist/index.js
+      with:
+        - GH_USERNAME: ${{ github.repository_owner }}
+        - COMMIT_MSG: "Updated latest repository activity"
+        - MAX_LINES: 20
+        - GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
