@@ -2382,16 +2382,7 @@ Toolkit.run(
     }
 
     if (startIdx !== -1 && endIdx === -1) {
-      startIdx++;
-      readmeContent.splice(startIdx + content.length, 0, "<pre>");
-      startIdx++;
-      readmeContent.splice(startIdx + content.length, 0, "~ root# ls -o work/");
-      startIdx++;
-      readmeContent.splice(
-        startIdx + content.length,
-        0,
-        `total ${content.length}`
-      );
+      readmeContent.splice(startIdx + content.length, 0, ["<pre>", "~ root# ls -o work/", `total ${content.length}`]);
       // Add one since the content needs to be inserted just after the initial comment
       startIdx++;
       content.forEach((line, idx) =>
@@ -2403,12 +2394,7 @@ Toolkit.run(
       );
 
       // Append <!--END_SECTION:projects--> comment
-      readmeContent.splice(startIdx + content.length, 0, "</pre>");
-      readmeContent.splice(
-        startIdx + content.length + 1,
-        0,
-        "<!--END_SECTION:projects-->"
-      );
+      readmeContent.splice(startIdx + content.length, 0, ["</pre>", "<!--END_SECTION:projects-->"]);
 
       // Update README
       fs.writeFileSync("./README.md", readmeContent.join("\n"));
