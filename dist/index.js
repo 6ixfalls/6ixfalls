@@ -2416,8 +2416,8 @@ Toolkit.run(
       );
     tools.log.info(oldContent);
     tools.log.info(newContent);
-    newContent.splice(startIdx + content.length, 0, ["<pre>", "~ root# ls -o work/", `total ${content.length}`]);
-    newContent.splice(startIdx + content.length + 1, 0, ["</pre>", "<!--END_SECTION:projects-->"]);
+    newContent.splice(startIdx, 0, ["<pre>", "~ root# ls -o work/", `total ${content.length}`]);
+    newContent.splice(startIdx + content.length, 0, ["</pre>", "<!--END_SECTION:projects-->"]);
     newContent = newContent.join("\n");
     tools.log.info(newContent);
     if (oldContent.trim() === newContent.trim())
