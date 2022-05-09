@@ -1,6 +1,4 @@
 name: Update README
-description: Update README with user data
-author: 6ixfalls
 
 on:
   schedule:
@@ -14,11 +12,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-code@v3
-      with:
-        node-version: 16.13.0
+        with:
+          node-version: 16.13.0
       - run: node dist/index.js
-      with:
-        - GH_USERNAME: ${{ github.repository_owner }}
-        - COMMIT_MSG: "Updated latest repository activity"
-        - MAX_LINES: 20
-        - GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          - GH_USERNAME: ${{ github.repository_owner }}
+          - COMMIT_MSG: "Updated latest repository activity"
+          - MAX_LINES: 20
+          - GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
