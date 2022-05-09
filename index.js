@@ -1,13 +1,13 @@
 const core = require("@actions/core");
 const fs = require("fs");
-const path = require("path");
 const { spawn } = require("child_process");
 const { Toolkit } = require("actions-toolkit");
+const axios = require("axios").default;
+const yaml = require("js-yaml");
 
 // Get config
 const GH_USERNAME = core.getInput("GH_USERNAME");
 const COMMIT_MSG = core.getInput("COMMIT_MSG");
-const MAX_LINES = core.getInput("MAX_LINES");
 /**
  * Returns the sentence case representation
  * @param {String} str - the string
@@ -80,85 +80,106 @@ const commitFile = async () => {
   await exec("git", ["push"]);
 };
 
-const serializers = {
-  IssueCommentEvent: (item) => {
-    return `🗣 Commented on ${toUrlFormat(item)} in ${toUrlFormat(
-      item.repo.name
-    )}`;
-  },
-  IssuesEvent: (item) => {
-    return `❗️ ${capitalize(item.payload.action)} issue ${toUrlFormat(
-      item
-    )} in ${toUrlFormat(item.repo.name)}`;
-  },
-  PullRequestEvent: (item) => {
-    const emoji = item.payload.action === "opened" ? "💪" : "❌";
-    const line = item.payload.pull_request.merged
-      ? "🎉 Merged"
-      : `${emoji} ${capitalize(item.payload.action)}`;
-    return `${line} PR ${toUrlFormat(item)} in ${toUrlFormat(item.repo.name)}`;
-  },
-};
-
 Toolkit.run(
   async (tools) => {
-    // Get the user's public events
+    // Get the user's public repositories
     tools.log.debug(`Getting activity for ${GH_USERNAME}`);
-    const events = await tools.github.activity.listPublicEventsForUser({
+    const publicRepos = await tools.github.repos.listForUser({
       username: GH_USERNAME,
       per_page: 100,
     });
     tools.log.debug(
-      `Activity for ${GH_USERNAME}, ${events.data.length} events found.`
+      `Repositories for ${GH_USERNAME}, ${publicRepos.data.length} repos found.`
     );
 
-    const content = events.data
-      // Filter out any boring activity
-      .filter((event) => serializers.hasOwnProperty(event.type))
-      // We only have five lines to work with
-      .slice(0, MAX_LINES)
+    tools.log.debug("Getting list of GitHub supported languages");
+    const languagesReq = await axios.get(
+      "https://raw.githubusercontent.com/github/linguist/master/lib/linguist/languages.yml"
+    );
+    const languages = yaml.load(languagesReq.data, {
+      schema: "FAILSAFE_SCHEMA",
+    });
+
+    let highestLength = 1;
+    const content = publicRepos.data
+      // Filter out forks
+      .filter((repo) => repo.fork == false)
       // Call the serializer to construct a string
-      .map((item) => serializers[item.type](item));
+      .map((repo) => {
+        let updated = new Date(repo.updated_at);
+        highestLength = Math.max(highestLength, repo.size.toString().length);
+        return [
+          repo.size,
+          `-rw-r--r-- 1 sixfalls $size ${updated.toLocaleString("en-US", {
+            month: "short",
+          })} ${updated
+            .getDay()
+            .toString()
+            .padStart(2, "0")} ${updated.toLocaleTimeString("en-US", {
+            hour12: false,
+            hour: "2-digit",
+            minute: "2-digit",
+          })} <a href="${repo.html_url}">${
+            repo.name.toLowerCase() +
+            (repo.language ? languages[repo.language].extensions[0] : ".txt")
+          }</a>`,
+        ];
+      });
 
     const readmeContent = fs.readFileSync("./README.md", "utf-8").split("\n");
 
-    // Find the index corresponding to <!--START_SECTION:activity--> comment
+    // Find the index corresponding to <!--START_SECTION:projects--> comment
     let startIdx = readmeContent.findIndex(
-      (content) => content.trim() === "<!--START_SECTION:activity-->"
+      (content) => content.trim() === "<!--START_SECTION:projects-->"
     );
 
-    // Early return in case the <!--START_SECTION:activity--> comment was not found
+    // Early return in case the <!--START_SECTION:projects--> comment was not found
     if (startIdx === -1) {
       return tools.exit.failure(
-        `Couldn't find the <!--START_SECTION:activity--> comment. Exiting!`
+        `Couldn't find the <!--START_SECTION:projects--> comment. Exiting!`
       );
     }
 
-    // Find the index corresponding to <!--END_SECTION:activity--> comment
+    // Find the index corresponding to <!--END_SECTION:projects--> comment
     const endIdx = readmeContent.findIndex(
-      (content) => content.trim() === "<!--END_SECTION:activity-->"
+      (content) => content.trim() === "<!--END_SECTION:projects-->"
     );
 
     if (!content.length) {
-      tools.exit.failure("No PullRequest/Issue/IssueComment events found");
+      tools.exit.failure("No Repositories found");
     }
 
     if (content.length < 5) {
-      tools.log.info("Found less than 5 activities");
+      tools.log.info("Found less than 5 repositories");
     }
 
     if (startIdx !== -1 && endIdx === -1) {
-      // Add one since the content needs to be inserted just after the initial comment
       startIdx++;
-      content.forEach((line, idx) =>
-        readmeContent.splice(startIdx + idx, 0, `${idx + 1}. ${line}`)
-      );
-
-      // Append <!--END_SECTION:activity--> comment
+      readmeContent.splice(startIdx + content.length, 0, "<pre>");
+      startIdx++;
+      readmeContent.splice(startIdx + content.length, 0, "~ root# ls -o work/");
+      startIdx++;
       readmeContent.splice(
         startIdx + content.length,
         0,
-        "<!--END_SECTION:activity-->"
+        `total ${content.length}`
+      );
+      // Add one since the content needs to be inserted just after the initial comment
+      startIdx++;
+      content.forEach((line, idx) =>
+        readmeContent.splice(
+          startIdx + idx,
+          0,
+          line[1].replace(/\$size/g, line[0].padStart(highestLength, " "))
+        )
+      );
+
+      // Append <!--END_SECTION:projects--> comment
+      readmeContent.splice(startIdx + content.length, 0, "</pre>");
+      readmeContent.splice(
+        startIdx + content.length + 1,
+        0,
+        "<!--END_SECTION:projects-->"
       );
 
       // Update README
@@ -176,13 +197,15 @@ Toolkit.run(
 
     const oldContent = readmeContent.slice(startIdx + 1, endIdx).join("\n");
     const newContent = content
-      .map((line, idx) => `${idx + 1}. ${line}`)
+      .map((line, idx) =>
+        line[1].replace(/\$size/g, line[0].padStart(highestLength, " "))
+      )
       .join("\n");
 
     if (oldContent.trim() === newContent.trim())
       tools.exit.success("No changes detected");
 
-    startIdx++;
+    startIdx += 2;
 
     // Recent GitHub Activity content between the comments
     const readmeActivitySection = readmeContent.slice(startIdx, endIdx);
@@ -192,7 +215,11 @@ Toolkit.run(
         if (!line) {
           return true;
         }
-        readmeContent.splice(startIdx + idx, 0, `${idx + 1}. ${line}`);
+        readmeContent.splice(
+          startIdx + idx,
+          0,
+          line[1].replace(/\$size/g, line[0].padStart(highestLength, " "))
+        );
       });
       tools.log.success("Wrote to README");
     } else {
@@ -205,11 +232,14 @@ Toolkit.run(
           return true;
         }
         if (line !== "") {
-          readmeContent[startIdx + idx] = `${count + 1}. ${content[count]}`;
+          readmeContent[startIdx + idx] = content[count][1].replace(
+            /\$size/g,
+            content[count][0].padStart(highestLength, " ")
+          );
           count++;
         }
       });
-      tools.log.success("Updated README with the recent activity");
+      tools.log.success("Updated README with GitHub Repositories");
     }
 
     // Update README

@@ -1,80 +1,26 @@
-# GitHub Activity in Readme
+## sixfalls | LuaU, TS/JS, Java Developer
 
-Updates `README.md` with the recent GitHub activity of a user.
+[![Roblox](https://img.shields.io/badge/dynamic/json?color=red&label=Roblox&query=count&suffix=%20Followers&url=https%3A%2F%2Ffriends.roblox.com%2Fv1%2Fusers%2F193632792%2Ffollowers%2Fcount&style=for-the-badge&logo=Roblox)](https://www.roblox.com/users/193632792/profile)
+[![DevForum](https://img.shields.io/badge/dynamic/json?color=9cf&label=DevForum&query=user.profile_view_count&suffix=%20Views&url=https%3A%2F%2Fdevforum.roblox.com%2Fu%2Fhvrtlvs.json&style=for-the-badge&logo=Roblox)](https://devforum.roblox.com/u/hvrtlvs/summary)
+[![Discord](https://img.shields.io/badge/Discord-Profile-blue?style=for-the-badge&logo=Discord&logoColor=white)](https://discord.com/users/303173495918034945)
+[![Profile Views](https://komarev.com/ghpvc/?username=6ixfalls&style=for-the-badge&color=yellow)](https://github.com/antonkomarev/github-profile-views-counter)
 
-<img width="735" alt="profile-repo" src="https://user-images.githubusercontent.com/25279263/87703301-3aa4a500-c7b8-11ea-8eb6-245121997a7b.png">
+<img align="right" width="46%" src="https://github-readme-stats.vercel.app/api?username=6ixfalls&theme=github_dark&hide_border=true&border_radius=10">
 
----
+### 👋 Hey there!
+I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua, and Java - although I do have experience in other languages such as Python and Bash.
+<br/><br/><br/><br/>
+<img align="right" width="40%" src="https://lanyard-profile-readme.vercel.app/api/303173495918034945?bg=0D1117">
 
-## Instructions
+<!--START_SECTION:projects-->
+<pre>
+~ root# ls -o work/
+total 3
+-rw-r--r-- 1 sixfalls 12 Mar 09 22:13 <a href="https://github.com/6ixfalls/RPresence">RPresence.ts</a>
+-rw-r--r-- 1 sixfalls 22 Apr 19 23:04 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
+-rw-r--r-- 1 sixfalls 21 Jan 14 16:40 <a href="https://github.com/6ixfalls/AstrahacksProject2">AstrahacksProject2.js</a>
+</pre>
+<!--END_SECTION:projects-->
 
-- Add the comment `<!--START_SECTION:activity-->` (entry point) within `README.md`. You can find an example [here](https://github.com/jamesgeorge007/jamesgeorge007/blob/master/README.md).
-
-- It's the time to create a workflow file.
-
-`.github/workflows/update-readme.yml`
-
-```yml
-name: Update README
-
-on:
-  schedule:
-    - cron: '*/30 * * * *'
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    name: Update this repo's README with recent activity
-
-    steps:
-      - uses: actions/checkout@v2
-      - uses: jamesgeorge007/github-activity-readme@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-The above job runs every half an hour, you can change it as you wish based on the [cron syntax](https://jasonet.co/posts/scheduled-actions/#the-cron-syntax).
-
-Please note that only those public events that belong to the following list show up:-
-
-- `IssueEvent`
-- `IssueCommentEvent`
-- `PullRequestEvent`
-
-You can find an example [here](https://github.com/jamesgeorge007/jamesgeorge007/blob/master/.github/workflows/update-readme.yml).
-
-### Override defaults
-
-Use the following `input params` to customize it for your use case:-
-
-| Input Param | Default Value | Description |
-|--------|--------|--------|
-| `COMMIT_MSG` | :zap: Update README with the recent activity | Commit message used while committing to the repo |
-| `MAX_LINES` | 5 | The maximum number of lines populated in your readme file |
-
-
-```yml
-name: Update README
-
-on:
-  schedule:
-    - cron: '*/30 * * * *'
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    name: Update this repo's README with recent activity
-
-    steps:
-      - uses: actions/checkout@v2
-      - uses: jamesgeorge007/github-activity-readme@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          COMMIT_MSG: 'Specify a custom commit message'
-          MAX_LINES: 10
-```
-
-_Inspired by [JasonEtco/activity-box](https://github.com/JasonEtco/activity-box)_
+[//]: <> (<img align="right" width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=6ixfalls&theme=github_dark&hide_border=true&layout=compact&border_radius=10">)
+[//]: <> (<a role="button" tabindex="0" href="#"><img src="http://6ixfalls.vercel.app/api/banner" width="100%" draggable="false"></a>)
