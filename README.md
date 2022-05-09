@@ -14,11 +14,11 @@ I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua,
 
 <!--START_SECTION:projects-->
 <pre>
-~ root# ls -l work/
+~ root# ls -o work/
 total 3
--rw-r--r-- 1 sixfalls sixfalls 12 Mar 09 22:13 <a href="https://github.com/6ixfalls/RPresence">RPresence.ts</a>
--rw-r--r-- 1 sixfalls sixfalls 22 Apr 19 23:04 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
--rw-r--r-- 1 sixfalls sixfalls 21 Jan 14 16:40 <a href="https://github.com/6ixfalls/AstrahacksProject2">AstrahacksProject2.js</a>
+-rw-r--r-- 1 sixfalls 12 Mar 09 22:13 <a href="https://github.com/6ixfalls/RPresence">RPresence.ts</a>
+-rw-r--r-- 1 sixfalls 22 Apr 19 23:04 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
+-rw-r--r-- 1 sixfalls 21 Jan 14 16:40 <a href="https://github.com/6ixfalls/AstrahacksProject2">AstrahacksProject2.js</a>
 </pre>
 <!--END_SECTION:projects-->
 
