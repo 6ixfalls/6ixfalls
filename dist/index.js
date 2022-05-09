@@ -2386,11 +2386,8 @@ Toolkit.run(
       .map((line, idx) =>
         line[1].replace(/\$size/g, line[0].padStart(highestLength, " "))
       );
-    tools.log.info(oldContent);
-    tools.log.info(newContent);
     newContent.unshift("<pre>", "~ root# ls -o work/", `total ${content.length}`);
-    newContent.push("</pre>", "<!--END_SECTION:projects-->");
-    tools.log.info(newContent);
+    newContent.push("</pre>");
     if (oldContent.trim() === newContent.join("\n").trim())
       tools.exit.success("No changes detected");
 
@@ -2398,10 +2395,7 @@ Toolkit.run(
 
     // Recent GitHub Activity content between the comments
     const readmeActivitySection = readmeContent.splice(startIdx, endIdx - startIdx);
-    tools.log.info(readmeActivitySection);
-    tools.log.info(readmeContent);
     readmeContent.splice(startIdx, 0, ...newContent);
-    tools.log.info(readmeContent);
     tools.log.success("Updated README with GitHub Repositories");
 
     // Update README
