@@ -159,9 +159,8 @@ Toolkit.run(
     tools.log.info(newContent);
     newContent.unshift("<pre>", "~ root# ls -o work/", `total ${content.length}`);
     newContent.push("</pre>", "<!--END_SECTION:projects-->");
-    newContent = newContent.join("\n");
     tools.log.info(newContent);
-    if (oldContent.trim() === newContent.trim())
+    if (oldContent.trim() === newContent.join("\n").trim())
       tools.exit.success("No changes detected");
 
     startIdx++;
