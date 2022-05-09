@@ -2327,9 +2327,7 @@ Toolkit.run(
     const languagesReq = await axios.get(
       "https://raw.githubusercontent.com/github/linguist/master/lib/linguist/languages.yml"
     );
-    const languages = yaml.load(languagesReq.data, {
-      schema: "FAILSAFE_SCHEMA",
-    });
+    const languages = yaml.load(languagesReq.data);
 
     let highestLength = 1;
     const content = publicRepos.data
@@ -2338,7 +2336,6 @@ Toolkit.run(
       // Call the serializer to construct a string
       .map((repo) => {
         let updated = new Date(repo.updated_at);
-        tools.log.debug(repo.size.toString() + "s: " + repo.size);
         highestLength = Math.max(highestLength, repo.size.toString().length);
         return [
           repo.size,
