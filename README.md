@@ -5,18 +5,18 @@
 [![Discord](https://img.shields.io/badge/Discord-Profile-blue?style=for-the-badge&logo=Discord&logoColor=white)](https://discord.com/users/303173495918034945)
 [![Profile Views](https://komarev.com/ghpvc/?username=6ixfalls&style=for-the-badge&color=yellow)](https://github.com/antonkomarev/github-profile-views-counter)
 
-<img align="right" width="46%" src="https://github-readme-stats.vercel.app/api?username=6ixfalls&theme=github_dark&hide_border=true&border_radius=10">
+<img align="right" width="46%" src="https://github-readme-stats.sixfalls.me/api?username=6ixfalls&theme=github_dark&hide_border=true&border_radius=10&count_private=true">
 
 ### 👋 Hey there!
 I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua, and Java - although I do have experience in other languages such as Python and Bash.
 <br/><br/><br/><br/>
-<img align="right" width="40%" src="https://lanyard-profile-readme.vercel.app/api/303173495918034945?bg=0D1117">
+<a href="https://discord.com/users/303173495918034945"><img align="right" width="40%" src="https://lanyard-profile-readme.vercel.app/api/303173495918034945?bg=0D1117"></a>
 
 <!--START_SECTION:projects-->
 <pre>
 ~ root# ls -o work/
 total 6
--rw-r--r-- 1 sixfalls  393216 May 01 03:46 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
+-rw-r--r-- 1 sixfalls  391168 May 01 03:46 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
 -rw-r--r-- 1 sixfalls 2268160 Feb 05 04:52 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
 -rw-r--r-- 1 sixfalls  561152 Oct 01 01:08 <a href="https://github.com/6ixfalls/AstrahacksProject2">astrahacksproject2.js</a>
 -rw-r--r-- 1 sixfalls   30720 Apr 03 05:24 <a href="https://github.com/6ixfalls/QuickAbout">quickabout.js</a>
