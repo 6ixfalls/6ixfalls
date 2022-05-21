@@ -19,7 +19,7 @@ total 6
 -rw-r--r-- 1 sixfalls  409600 May 01 03:46 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
 -rw-r--r-- 1 sixfalls 8002560 Feb 05 04:52 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
 -rw-r--r-- 1 sixfalls  561152 Oct 01 01:08 <a href="https://github.com/6ixfalls/AstrahacksProject2">astrahacksproject2.js</a>
--rw-r--r-- 1 sixfalls   46080 Apr 03 05:24 <a href="https://github.com/6ixfalls/QuickAbout">quickabout.js</a>
+-rw-r--r-- 1 sixfalls   54272 Apr 03 05:24 <a href="https://github.com/6ixfalls/QuickAbout">quickabout.js</a>
 -rw-r--r-- 1 sixfalls  481280 Feb 06 20:14 <a href="https://github.com/6ixfalls/RPresence">rpresence.ts</a>
 -rw-r--r-- 1 sixfalls   57344 Oct 05 01:17 <a href="https://github.com/6ixfalls/sync-in-roblox">sync-in-roblox.ts</a>
 </pre>
