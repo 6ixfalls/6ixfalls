@@ -5,12 +5,18 @@
 [![Discord](https://img.shields.io/badge/Discord-Profile-blue?style=for-the-badge&logo=Discord&logoColor=white)](https://discord.com/users/303173495918034945)
 [![Profile Views](https://komarev.com/ghpvc/?username=6ixfalls&style=for-the-badge&color=yellow)](https://github.com/antonkomarev/github-profile-views-counter)
 
-<img align="right" width="46%" src="https://github-readme-stats.sixfalls.me/api?username=6ixfalls&theme=github_dark&hide_border=true&border_radius=10&count_private=true">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.sixfalls.me/api?username=6ixfalls&theme=github_dark&hide_border=true&border_radius=10&count_private=true">
+  <img align="right" width="46%" src="https://github-readme-stats.sixfalls.me/api?username=6ixfalls&theme=default&hide_border=true&border_radius=10&count_private=true">
+</picture>
 
 ### 👋 Hey there!
 I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua, and Java - although I do have experience in other languages such as Python and Bash.
 <br/><br/><br/><br/>
-<a href="https://discord.com/users/303173495918034945"><img align="right" width="40%" src="https://lanyard-profile-readme.vercel.app/api/303173495918034945?bg=0D1117"></a>
+<a href="https://discord.com/users/303173495918034945"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://lanyard-profile-readme.vercel.app/api/303173495918034945?bg=0D1117">
+  <img align="right" width="40%" src="https://lanyard-profile-readme.vercel.app/api/303173495918034945?bg=FFFEFE">
+</picture></a>
 
 <!--START_SECTION:projects-->
 <pre>
