@@ -7,7 +7,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.sixfalls.me/api?username=6ixfalls&theme=github_dark&hide_border=true&border_radius=10&count_private=true">
-  <img align="right" width="46%" src="https://github-readme-stats.sixfalls.me/api?username=6ixfalls&theme=default&hide_border=true&border_radius=10&count_private=true">
+  <img align="right" width="46%" src="https://github-readme-stats.sixfalls.me/api?username=6ixfalls&theme=github_dark&hide_border=true&border_radius=10&count_private=true">
 </picture>
 
 ### 👋 Hey there!
@@ -15,7 +15,7 @@ I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua,
 <br/><br/><br/><br/>
 <a href="https://discord.com/users/303173495918034945"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://lanyard-profile-readme.vercel.app/api/303173495918034945?bg=0D1117">
-  <img align="right" width="40%" src="https://lanyard-profile-readme.vercel.app/api/303173495918034945?bg=FFFEFE">
+  <img align="right" width="40%" src="https://lanyard-profile-readme.vercel.app/api/303173495918034945">
 </picture></a>
 
 <!--START_SECTION:projects-->
