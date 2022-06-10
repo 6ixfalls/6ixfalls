@@ -21,7 +21,7 @@ I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua,
 <pre>
 ~ root# ls -o work/
 total 8
--rw-r--r-- 1 sixfalls  766976 May 01 03:46 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
+-rw-r--r-- 1 sixfalls  768000 May 01 03:46 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
 -rw-r--r-- 1 sixfalls 8113152 Feb 05 04:52 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
 -rw-r--r-- 1 sixfalls  561152 Oct 01 01:08 <a href="https://github.com/6ixfalls/AstrahacksProject2">astrahacksproject2.js</a>
 -rw-r--r-- 1 sixfalls 2802688 Jun 05 06:14 <a href="https://github.com/6ixfalls/denocloud">denocloud.ts</a>
