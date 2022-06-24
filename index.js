@@ -116,7 +116,7 @@ Toolkit.run(
           })} ${updated
             .getUTCDate()
             .toString()
-            .padStart(2, "0")} ${updated.toLocaleTimeString("en-US", {
+            .padStart(2, "0")} ${updated.toLocaleTimeString("en-GB", {
               hour12: false,
               hour: "2-digit",
               minute: "2-digit",
