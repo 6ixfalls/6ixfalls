@@ -21,14 +21,14 @@ I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua,
 <pre>
 ~ root# ls -o work/
 total 8
--rw-r--r-- 1 sixfalls  486400 May 01 03:46 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
--rw-r--r-- 1 sixfalls 8169472 Feb 05 04:52 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
--rw-r--r-- 1 sixfalls  561152 Oct 01 01:08 <a href="https://github.com/6ixfalls/AstrahacksProject2">astrahacksproject2.js</a>
--rw-r--r-- 1 sixfalls 4461568 Jun 05 06:14 <a href="https://github.com/6ixfalls/denocloud">denocloud.ts</a>
--rw-r--r-- 1 sixfalls 1124352 May 06 05:17 <a href="https://github.com/6ixfalls/github-readme-stats">github-readme-stats.js</a>
--rw-r--r-- 1 sixfalls   61440 Jun 01 19:28 <a href="https://github.com/6ixfalls/QuickAbout">quickabout.js</a>
--rw-r--r-- 1 sixfalls  481280 Feb 06 20:14 <a href="https://github.com/6ixfalls/RPresence">rpresence.ts</a>
--rw-r--r-- 1 sixfalls   57344 Oct 05 01:17 <a href="https://github.com/6ixfalls/sync-in-roblox">sync-in-roblox.ts</a>
+-rw-r--r-- 1 sixfalls  486400 Jun 05 24:15 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
+-rw-r--r-- 1 sixfalls 8169472 Jun 02 19:02 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
+-rw-r--r-- 1 sixfalls  561152 Jan 06 24:41 <a href="https://github.com/6ixfalls/AstrahacksProject2">astrahacksproject2.js</a>
+-rw-r--r-- 1 sixfalls 4481024 Jun 04 23:04 <a href="https://github.com/6ixfalls/denocloud">denocloud.ts</a>
+-rw-r--r-- 1 sixfalls 1124352 May 06 05:13 <a href="https://github.com/6ixfalls/github-readme-stats">github-readme-stats.js</a>
+-rw-r--r-- 1 sixfalls   61440 Jun 01 06:09 <a href="https://github.com/6ixfalls/QuickAbout">quickabout.js</a>
+-rw-r--r-- 1 sixfalls  481280 May 00 15:43 <a href="https://github.com/6ixfalls/RPresence">rpresence.ts</a>
+-rw-r--r-- 1 sixfalls   57344 Jun 04 21:22 <a href="https://github.com/6ixfalls/sync-in-roblox">sync-in-roblox.ts</a>
 </pre>
 <!--END_SECTION:projects-->
 
