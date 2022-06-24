@@ -106,26 +106,29 @@ Toolkit.run(
       .map((repo) => {
         repo.size *= 1024;
 
-        let updated = new Date(repo.updated_at);
+        let updated = new Date(repo.pushed_at);
         highestLength = Math.max(highestLength, repo.size.toString().length);
         return [
           repo.size.toString(),
           `-rw-r--r-- 1 sixfalls $size ${updated.toLocaleString("en-US", {
             month: "short",
+            timeZone: "UTC",
           })} ${updated
             .getDay()
             .toString()
             .padStart(2, "0")} ${updated.toLocaleTimeString("en-US", {
-              hour12: false,
-              hour: "2-digit",
-              minute: "2-digit",
-            })} <a href="${repo.html_url}">${repo.name.toLowerCase() +
+            hour12: false,
+            hour: "2-digit",
+            minute: "2-digit",
+            timeZone: "UTC",
+          })} <a href="${repo.html_url}">${
+            repo.name.toLowerCase() +
             (repo.language ? languages[repo.language].extensions[0] : ".txt")
           }</a>`,
         ];
       });
 
-    const readmeContent = fs.readFileSync("./README.md", "utf-8").split("\n");
+    const readmeContent = fs.readFileSync("./README.md", "utf8").split("\n");
 
     // Find the index corresponding to <!--START_SECTION:projects--> comment
     let startIdx = readmeContent.findIndex(
@@ -153,11 +156,14 @@ Toolkit.run(
     }
 
     const oldContent = readmeContent.slice(startIdx + 1, endIdx).join("\n");
-    let newContent = content
-      .map((line, idx) =>
-        line[1].replace(/\$size/g, line[0].padStart(highestLength, " "))
-      );
-    newContent.unshift("<pre>", "~ root# ls -o work/", `total ${content.length}`);
+    let newContent = content.map((line, idx) =>
+      line[1].replace(/\$size/g, line[0].padStart(highestLength, " "))
+    );
+    newContent.unshift(
+      "<pre>",
+      "~ root# ls -o work/",
+      `total ${content.length}`
+    );
     newContent.push("</pre>");
     if (oldContent.trim() === newContent.join("\n").trim())
       tools.exit.success("No changes detected");
@@ -165,7 +171,10 @@ Toolkit.run(
     startIdx++;
 
     // Recent GitHub Activity content between the comments
-    const readmeActivitySection = readmeContent.splice(startIdx, endIdx - startIdx);
+    const readmeActivitySection = readmeContent.splice(
+      startIdx,
+      endIdx - startIdx
+    );
     readmeContent.splice(startIdx, 0, ...newContent);
     tools.log.success("Updated README with GitHub Repositories");
 
