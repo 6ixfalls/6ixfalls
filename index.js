@@ -114,7 +114,7 @@ Toolkit.run(
             month: "short",
             timeZone: "UTC"
           })} ${updated
-            .getDay()
+            .getUTCDate()
             .toString()
             .padStart(2, "0")} ${updated.toLocaleTimeString("en-US", {
               hour12: false,
