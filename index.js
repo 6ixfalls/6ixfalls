@@ -111,16 +111,18 @@ Toolkit.run(
         return [
           repo.size.toString(),
           `-rw-r--r-- 1 sixfalls $size ${updated.toLocaleString("en-US", {
-            month: "short"
+            month: "short",
+            timeZone: "UTC"
           })} ${updated
             .getDay()
             .toString()
             .padStart(2, "0")} ${updated.toLocaleTimeString("en-US", {
               hour12: false,
               hour: "2-digit",
-              minute: "2-digit"
+              minute: "2-digit",
+              timeZone: "UTC",
             })} <a href="${repo.html_url}">${repo.name.toLowerCase() +
-          (repo.language ? languages[repo.language].extensions[0] : ".txt")
+            (repo.language ? languages[repo.language].extensions[0] : ".txt")
           }</a>`,
         ];
       });
