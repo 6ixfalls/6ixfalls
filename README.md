@@ -20,11 +20,12 @@ I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua,
 <!--START_SECTION:projects-->
 <pre>
 ~ root# ls -o work/
-total 8
--rw-r--r-- 1 sixfalls  860160 Jun 28 03:52 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
+total 9
+-rw-r--r-- 1 sixfalls  862208 Jun 28 04:49 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
 -rw-r--r-- 1 sixfalls 8169472 Jun 21 19:02 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
 -rw-r--r-- 1 sixfalls  561152 Jan 15 00:41 <a href="https://github.com/6ixfalls/AstrahacksProject2">astrahacksproject2.js</a>
 -rw-r--r-- 1 sixfalls  815104 Jun 27 19:31 <a href="https://github.com/6ixfalls/denocloud">denocloud.ts</a>
+-rw-r--r-- 1 sixfalls       0 Jun 28 05:03 <a href="https://github.com/6ixfalls/gfnclips">gfnclips.ts</a>
 -rw-r--r-- 1 sixfalls 1124352 May 21 05:13 <a href="https://github.com/6ixfalls/github-readme-stats">github-readme-stats.js</a>
 -rw-r--r-- 1 sixfalls   61440 Jun 20 06:09 <a href="https://github.com/6ixfalls/QuickAbout">quickabout.js</a>
 -rw-r--r-- 1 sixfalls  481280 May 01 15:43 <a href="https://github.com/6ixfalls/RPresence">rpresence.ts</a>
