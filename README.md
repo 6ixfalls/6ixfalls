@@ -20,8 +20,8 @@ I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua,
 <!--START_SECTION:projects-->
 <pre>
 ~ root# ls -o work/
-total 10
--rw-r--r-- 1 sixfalls  1213440 Sep 30 22:52 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
+total 11
+-rw-r--r-- 1 sixfalls  1171456 Sep 30 23:32 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
 -rw-r--r-- 1 sixfalls 11901952 Sep 13 23:43 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
 -rw-r--r-- 1 sixfalls   561152 Jan 15 00:41 <a href="https://github.com/6ixfalls/AstrahacksProject2">astrahacksproject2.js</a>
 -rw-r--r-- 1 sixfalls  1570816 Jul 07 16:23 <a href="https://github.com/6ixfalls/denocloud">denocloud.ts</a>
@@ -31,6 +31,7 @@ total 10
 -rw-r--r-- 1 sixfalls  1273856 Sep 22 03:48 <a href="https://github.com/6ixfalls/sixfolio">sixfolio.vue</a>
 -rw-r--r-- 1 sixfalls   106496 Aug 25 04:56 <a href="https://github.com/6ixfalls/sixshx">sixshx.ts</a>
 -rw-r--r-- 1 sixfalls    72704 Sep 26 21:18 <a href="https://github.com/6ixfalls/sync-in-roblox">sync-in-roblox.ts</a>
+-rw-r--r-- 1 sixfalls        0 Oct 01 02:21 <a href="https://github.com/6ixfalls/workerboard">workerboard.txt</a>
 </pre>
 <!--END_SECTION:projects-->
 
