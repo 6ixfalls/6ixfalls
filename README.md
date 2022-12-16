@@ -21,7 +21,7 @@ I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua,
 <pre>
 ~ root# ls -o work/
 total 14
--rw-r--r-- 1 sixfalls  1713152 Dec 16 20:20 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
+-rw-r--r-- 1 sixfalls  1713152 Dec 16 20:38 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
 -rw-r--r-- 1 sixfalls 11901952 Sep 13 23:43 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
 -rw-r--r-- 1 sixfalls   561152 Jan 15 00:41 <a href="https://github.com/6ixfalls/AstrahacksProject2">astrahacksproject2.js</a>
 -rw-r--r-- 1 sixfalls   551936 Dec 09 05:52 <a href="https://github.com/6ixfalls/bloxstrap">bloxstrap.cs</a>
@@ -33,7 +33,7 @@ total 14
 -rw-r--r-- 1 sixfalls  1161216 Dec 01 04:25 <a href="https://github.com/6ixfalls/sixfolio">sixfolio.vue</a>
 -rw-r--r-- 1 sixfalls   305152 Nov 28 06:21 <a href="https://github.com/6ixfalls/sixshx">sixshx.ts</a>
 -rw-r--r-- 1 sixfalls     5120 Oct 31 01:24 <a href="https://github.com/6ixfalls/ssh.akaa.me">ssh.akaa.me.go</a>
--rw-r--r-- 1 sixfalls    66560 Dec 13 21:08 <a href="https://github.com/6ixfalls/sync-in-roblox">sync-in-roblox.ts</a>
+-rw-r--r-- 1 sixfalls    66560 Dec 16 21:11 <a href="https://github.com/6ixfalls/sync-in-roblox">sync-in-roblox.ts</a>
 -rw-r--r-- 1 sixfalls   159744 Oct 11 02:17 <a href="https://github.com/6ixfalls/workerboard">workerboard.ts</a>
 </pre>
 <!--END_SECTION:projects-->
