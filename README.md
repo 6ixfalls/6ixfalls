@@ -21,16 +21,16 @@ I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua,
 <pre>
 ~ root# ls -o work/
 total 13
--rw-r--r-- 1 sixfalls  2400256 Mar 02 22:39 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
+-rw-r--r-- 1 sixfalls  2402304 Mar 03 02:15 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
 -rw-r--r-- 1 sixfalls 11901952 Sep 13 23:43 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
 -rw-r--r-- 1 sixfalls   561152 Jan 15 00:41 <a href="https://github.com/6ixfalls/AstrahacksProject2">astrahacksproject2.js</a>
 -rw-r--r-- 1 sixfalls  1089536 Feb 18 01:43 <a href="https://github.com/6ixfalls/bloxstrap">bloxstrap.cs</a>
 -rw-r--r-- 1 sixfalls  1570816 Jul 07 16:23 <a href="https://github.com/6ixfalls/denocloud">denocloud.ts</a>
 -rw-r--r-- 1 sixfalls  1124352 May 21 05:13 <a href="https://github.com/6ixfalls/github-readme-stats">github-readme-stats.js</a>
 -rw-r--r-- 1 sixfalls   316416 Oct 17 21:54 <a href="https://github.com/6ixfalls/og-banner">og-banner.ts</a>
--rw-r--r-- 1 sixfalls    64512 Sep 03 18:30 <a href="https://github.com/6ixfalls/QuickAbout">quickabout.js</a>
+-rw-r--r-- 1 sixfalls    67584 Mar 03 02:35 <a href="https://github.com/6ixfalls/QuickAbout">quickabout.js</a>
 -rw-r--r-- 1 sixfalls   532480 Sep 19 00:10 <a href="https://github.com/6ixfalls/RPresence">rpresence.ts</a>
--rw-r--r-- 1 sixfalls  1163264 Dec 30 23:19 <a href="https://github.com/6ixfalls/sixfolio">sixfolio.vue</a>
+-rw-r--r-- 1 sixfalls  1163264 Mar 03 03:27 <a href="https://github.com/6ixfalls/sixfolio">sixfolio.vue</a>
 -rw-r--r-- 1 sixfalls   307200 Jan 09 04:16 <a href="https://github.com/6ixfalls/sixshx">sixshx.ts</a>
 -rw-r--r-- 1 sixfalls    66560 Mar 02 22:00 <a href="https://github.com/6ixfalls/sync-in-roblox">sync-in-roblox.ts</a>
 -rw-r--r-- 1 sixfalls   159744 Oct 11 02:17 <a href="https://github.com/6ixfalls/workerboard">workerboard.ts</a>
