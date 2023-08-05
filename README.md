@@ -20,19 +20,18 @@ I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua,
 <!--START_SECTION:projects-->
 <pre>
 ~ root# ls -o work/
-total 18
--rw-r--r-- 1 sixfalls  3717120 Aug 05 22:38 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
+total 17
+-rw-r--r-- 1 sixfalls  3717120 Aug 05 23:15 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
 -rw-r--r-- 1 sixfalls 11901952 Sep 13 23:43 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
 -rw-r--r-- 1 sixfalls   561152 Jan 15 00:41 <a href="https://github.com/6ixfalls/AstrahacksProject2">astrahacksproject2.js</a>
 -rw-r--r-- 1 sixfalls  1091584 Apr 27 10:03 <a href="https://github.com/6ixfalls/bloxstrap">bloxstrap.cs</a>
--rw-r--r-- 1 sixfalls     9216 Aug 05 21:33 <a href="https://github.com/6ixfalls/caddy-on-railway">caddy-on-railway.css</a>
 -rw-r--r-- 1 sixfalls  1570816 Jul 07 16:23 <a href="https://github.com/6ixfalls/denocloud">denocloud.ts</a>
 -rw-r--r-- 1 sixfalls   183296 May 02 19:52 <a href="https://github.com/6ixfalls/firefly-api">firefly-api.js</a>
 -rw-r--r-- 1 sixfalls  1124352 May 21 05:13 <a href="https://github.com/6ixfalls/github-readme-stats">github-readme-stats.js</a>
 -rw-r--r-- 1 sixfalls   316416 Oct 17 21:54 <a href="https://github.com/6ixfalls/og-banner">og-banner.ts</a>
 -rw-r--r-- 1 sixfalls    74752 Jun 07 22:41 <a href="https://github.com/6ixfalls/QuickAbout">quickabout.js</a>
 -rw-r--r-- 1 sixfalls     3072 Aug 05 22:48 <a href="https://github.com/6ixfalls/railway-nocodb">railway-nocodb.dockerfile</a>
--rw-r--r-- 1 sixfalls    28672 Aug 05 22:49 <a href="https://github.com/6ixfalls/railway-rabbitmq">railway-rabbitmq.dockerfile</a>
+-rw-r--r-- 1 sixfalls    38912 Aug 05 23:22 <a href="https://github.com/6ixfalls/railway-rabbitmq">railway-rabbitmq.dockerfile</a>
 -rw-r--r-- 1 sixfalls        0 Aug 05 02:43 <a href="https://github.com/6ixfalls/railway-temporal">railway-temporal.txt</a>
 -rw-r--r-- 1 sixfalls   532480 Sep 19 00:10 <a href="https://github.com/6ixfalls/RPresence">rpresence.ts</a>
 -rw-r--r-- 1 sixfalls  2946048 Aug 04 02:56 <a href="https://github.com/6ixfalls/sixfolio">sixfolio.vue</a>
