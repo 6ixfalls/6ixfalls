@@ -12,9 +12,7 @@
 ### 👋 Hey there!
 I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua, and Java - although I do have experience in other languages such as Python and Bash.
 <br/><br/><br/><br/>
-<a href="https://discord.com/users/303173495918034945"><picture>
-  <img align="right" width="40%" src="https://lanyard-profile-readme.vercel.app/api/303173495918034945?bg=0D1117&hideDiscrim=true">
-</picture></a>
+<a href="https://im.sixfal.ls/"><img align="right" width="40%" src="https://lanyard-profile-readme.vercel.app/api/303173495918034945?bg=0D1117&hideDiscrim=true"></a>
 
 <!--START_SECTION:projects-->
 <pre>
