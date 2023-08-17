@@ -17,8 +17,8 @@ I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua,
 <!--START_SECTION:projects-->
 <pre>
 ~ root# ls -o work/
-total 17
--rw-r--r-- 1 sixfalls  3850240 Aug 17 04:20 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
+total 18
+-rw-r--r-- 1 sixfalls  3852288 Aug 17 04:38 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
 -rw-r--r-- 1 sixfalls 11901952 Sep 13 23:43 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
 -rw-r--r-- 1 sixfalls   561152 Jan 15 00:41 <a href="https://github.com/6ixfalls/AstrahacksProject2">astrahacksproject2.js</a>
 -rw-r--r-- 1 sixfalls  1091584 Apr 27 10:03 <a href="https://github.com/6ixfalls/bloxstrap">bloxstrap.cs</a>
@@ -34,6 +34,7 @@ total 17
 -rw-r--r-- 1 sixfalls  2867200 Aug 14 06:46 <a href="https://github.com/6ixfalls/sixfolio">sixfolio.vue</a>
 -rw-r--r-- 1 sixfalls   495616 Aug 03 03:34 <a href="https://github.com/6ixfalls/sixshx">sixshx.ts</a>
 -rw-r--r-- 1 sixfalls    66560 Mar 03 22:02 <a href="https://github.com/6ixfalls/sync-in-roblox">sync-in-roblox.ts</a>
+-rw-r--r-- 1 sixfalls        0 Aug 17 05:04 <a href="https://github.com/6ixfalls/Temporal">temporal.ts</a>
 -rw-r--r-- 1 sixfalls   159744 Oct 11 02:17 <a href="https://github.com/6ixfalls/workerboard">workerboard.ts</a>
 </pre>
 <!--END_SECTION:projects-->
