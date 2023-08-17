@@ -17,8 +17,8 @@ I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua,
 <!--START_SECTION:projects-->
 <pre>
 ~ root# ls -o work/
-total 18
--rw-r--r-- 1 sixfalls  3852288 Aug 17 05:15 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
+total 17
+-rw-r--r-- 1 sixfalls  3855360 Aug 17 05:38 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
 -rw-r--r-- 1 sixfalls 11901952 Sep 13 23:43 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
 -rw-r--r-- 1 sixfalls   561152 Jan 15 00:41 <a href="https://github.com/6ixfalls/AstrahacksProject2">astrahacksproject2.js</a>
 -rw-r--r-- 1 sixfalls  1091584 Apr 27 10:03 <a href="https://github.com/6ixfalls/bloxstrap">bloxstrap.cs</a>
@@ -29,12 +29,11 @@ total 18
 -rw-r--r-- 1 sixfalls    74752 Jun 07 22:41 <a href="https://github.com/6ixfalls/QuickAbout">quickabout.js</a>
 -rw-r--r-- 1 sixfalls     4096 Aug 05 22:48 <a href="https://github.com/6ixfalls/railway-nocodb">railway-nocodb.dockerfile</a>
 -rw-r--r-- 1 sixfalls    34816 Aug 08 01:35 <a href="https://github.com/6ixfalls/railway-rabbitmq">railway-rabbitmq.js</a>
--rw-r--r-- 1 sixfalls   129024 Aug 08 01:03 <a href="https://github.com/6ixfalls/railway-temporal">railway-temporal.ts</a>
+-rw-r--r-- 1 sixfalls   129024 Aug 17 06:06 <a href="https://github.com/6ixfalls/railway-temporal">railway-temporal.ts</a>
 -rw-r--r-- 1 sixfalls   532480 Sep 19 00:10 <a href="https://github.com/6ixfalls/RPresence">rpresence.ts</a>
--rw-r--r-- 1 sixfalls  2867200 Aug 14 06:46 <a href="https://github.com/6ixfalls/sixfolio">sixfolio.vue</a>
+-rw-r--r-- 1 sixfalls  2867200 Aug 17 06:05 <a href="https://github.com/6ixfalls/sixfolio">sixfolio.vue</a>
 -rw-r--r-- 1 sixfalls   495616 Aug 03 03:34 <a href="https://github.com/6ixfalls/sixshx">sixshx.ts</a>
 -rw-r--r-- 1 sixfalls    66560 Mar 03 22:02 <a href="https://github.com/6ixfalls/sync-in-roblox">sync-in-roblox.ts</a>
--rw-r--r-- 1 sixfalls        0 Aug 17 05:32 <a href="https://github.com/6ixfalls/Temporal">temporal.ts</a>
 -rw-r--r-- 1 sixfalls   159744 Oct 11 02:17 <a href="https://github.com/6ixfalls/workerboard">workerboard.ts</a>
 </pre>
 <!--END_SECTION:projects-->
