@@ -17,15 +17,14 @@ I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua,
 <!--START_SECTION:projects-->
 <pre>
 ~ root# ls -o work/
-total 19
--rw-r--r-- 1 sixfalls  3856384 Aug 18 05:15 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
+total 17
+-rw-r--r-- 1 sixfalls  3859456 Aug 18 05:38 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
 -rw-r--r-- 1 sixfalls 11901952 Sep 13 23:43 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
 -rw-r--r-- 1 sixfalls   561152 Jan 15 00:41 <a href="https://github.com/6ixfalls/AstrahacksProject2">astrahacksproject2.js</a>
 -rw-r--r-- 1 sixfalls  1091584 Apr 27 10:03 <a href="https://github.com/6ixfalls/bloxstrap">bloxstrap.cs</a>
 -rw-r--r-- 1 sixfalls  1570816 Jul 07 16:23 <a href="https://github.com/6ixfalls/denocloud">denocloud.ts</a>
 -rw-r--r-- 1 sixfalls   183296 May 02 19:52 <a href="https://github.com/6ixfalls/firefly-api">firefly-api.js</a>
 -rw-r--r-- 1 sixfalls  1124352 May 21 05:13 <a href="https://github.com/6ixfalls/github-readme-stats">github-readme-stats.js</a>
--rw-r--r-- 1 sixfalls     4096 Aug 17 19:56 <a href="https://github.com/6ixfalls/nocodb">nocodb.dockerfile</a>
 -rw-r--r-- 1 sixfalls   316416 Oct 17 21:54 <a href="https://github.com/6ixfalls/og-banner">og-banner.ts</a>
 -rw-r--r-- 1 sixfalls    74752 Jun 07 22:41 <a href="https://github.com/6ixfalls/QuickAbout">quickabout.js</a>
 -rw-r--r-- 1 sixfalls     4096 Aug 05 22:48 <a href="https://github.com/6ixfalls/railway-nocodb">railway-nocodb.dockerfile</a>
@@ -35,7 +34,6 @@ total 19
 -rw-r--r-- 1 sixfalls  2870272 Aug 17 06:05 <a href="https://github.com/6ixfalls/sixfolio">sixfolio.vue</a>
 -rw-r--r-- 1 sixfalls   495616 Aug 03 03:34 <a href="https://github.com/6ixfalls/sixshx">sixshx.ts</a>
 -rw-r--r-- 1 sixfalls    66560 Mar 03 22:02 <a href="https://github.com/6ixfalls/sync-in-roblox">sync-in-roblox.ts</a>
--rw-r--r-- 1 sixfalls        0 Aug 18 05:26 <a href="https://github.com/6ixfalls/Temporal">temporal.ts</a>
 -rw-r--r-- 1 sixfalls   159744 Oct 11 02:17 <a href="https://github.com/6ixfalls/workerboard">workerboard.ts</a>
 </pre>
 <!--END_SECTION:projects-->
