@@ -17,12 +17,13 @@ I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua,
 <!--START_SECTION:projects-->
 <pre>
 ~ root# ls -o work/
-total 17
--rw-r--r-- 1 sixfalls  3986432 Sep 01 02:08 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
+total 18
+-rw-r--r-- 1 sixfalls  3986432 Sep 01 02:38 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
 -rw-r--r-- 1 sixfalls 11901952 Sep 13 23:43 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
 -rw-r--r-- 1 sixfalls   561152 Jan 15 00:41 <a href="https://github.com/6ixfalls/AstrahacksProject2">astrahacksproject2.js</a>
 -rw-r--r-- 1 sixfalls  1091584 Apr 27 10:03 <a href="https://github.com/6ixfalls/bloxstrap">bloxstrap.cs</a>
 -rw-r--r-- 1 sixfalls  1570816 Jul 07 16:23 <a href="https://github.com/6ixfalls/denocloud">denocloud.ts</a>
+-rw-r--r-- 1 sixfalls        0 Sep 01 03:01 <a href="https://github.com/6ixfalls/docker-coolify">docker-coolify.txt</a>
 -rw-r--r-- 1 sixfalls   183296 May 02 19:52 <a href="https://github.com/6ixfalls/firefly-api">firefly-api.js</a>
 -rw-r--r-- 1 sixfalls  1124352 May 21 05:13 <a href="https://github.com/6ixfalls/github-readme-stats">github-readme-stats.js</a>
 -rw-r--r-- 1 sixfalls   316416 Oct 17 21:54 <a href="https://github.com/6ixfalls/og-banner">og-banner.ts</a>
