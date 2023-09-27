@@ -18,14 +18,14 @@ I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua,
 <pre>
 ~ root# ls -o work/
 total 19
--rw-r--r-- 1 sixfalls  4199424 Sep 27 06:23 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
+-rw-r--r-- 1 sixfalls  4199424 Sep 27 06:39 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
 -rw-r--r-- 1 sixfalls 11901952 Sep 13 23:43 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
 -rw-r--r-- 1 sixfalls   561152 Jan 15 00:41 <a href="https://github.com/6ixfalls/AstrahacksProject2">astrahacksproject2.js</a>
 -rw-r--r-- 1 sixfalls  1091584 Apr 27 10:03 <a href="https://github.com/6ixfalls/bloxstrap">bloxstrap.cs</a>
 -rw-r--r-- 1 sixfalls  1570816 Jul 07 16:23 <a href="https://github.com/6ixfalls/denocloud">denocloud.ts</a>
 -rw-r--r-- 1 sixfalls        0 Sep 01 03:01 <a href="https://github.com/6ixfalls/docker-coolify">docker-coolify.txt</a>
 -rw-r--r-- 1 sixfalls   183296 May 02 19:52 <a href="https://github.com/6ixfalls/firefly-api">firefly-api.js</a>
--rw-r--r-- 1 sixfalls    54272 Sep 27 06:38 <a href="https://github.com/6ixfalls/fleet-alerts">fleet-alerts.ts</a>
+-rw-r--r-- 1 sixfalls    70656 Sep 27 06:46 <a href="https://github.com/6ixfalls/fleet-alerts">fleet-alerts.ts</a>
 -rw-r--r-- 1 sixfalls  1124352 May 21 05:13 <a href="https://github.com/6ixfalls/github-readme-stats">github-readme-stats.js</a>
 -rw-r--r-- 1 sixfalls   316416 Oct 17 21:54 <a href="https://github.com/6ixfalls/og-banner">og-banner.ts</a>
 -rw-r--r-- 1 sixfalls    74752 Jun 07 22:41 <a href="https://github.com/6ixfalls/QuickAbout">quickabout.js</a>
@@ -33,7 +33,7 @@ total 19
 -rw-r--r-- 1 sixfalls    34816 Aug 08 01:35 <a href="https://github.com/6ixfalls/railway-rabbitmq">railway-rabbitmq.js</a>
 -rw-r--r-- 1 sixfalls   133120 Aug 17 06:06 <a href="https://github.com/6ixfalls/railway-temporal">railway-temporal.ts</a>
 -rw-r--r-- 1 sixfalls   532480 Sep 19 00:10 <a href="https://github.com/6ixfalls/RPresence">rpresence.ts</a>
--rw-r--r-- 1 sixfalls  5788672 Sep 25 06:52 <a href="https://github.com/6ixfalls/sixfolio">sixfolio.vue</a>
+-rw-r--r-- 1 sixfalls  5788672 Sep 27 06:53 <a href="https://github.com/6ixfalls/sixfolio">sixfolio.vue</a>
 -rw-r--r-- 1 sixfalls   495616 Aug 03 03:34 <a href="https://github.com/6ixfalls/sixshx">sixshx.ts</a>
 -rw-r--r-- 1 sixfalls    66560 Mar 03 22:02 <a href="https://github.com/6ixfalls/sync-in-roblox">sync-in-roblox.ts</a>
 -rw-r--r-- 1 sixfalls   159744 Oct 11 02:17 <a href="https://github.com/6ixfalls/workerboard">workerboard.ts</a>
