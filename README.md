@@ -18,7 +18,7 @@ I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua,
 <pre>
 ~ root# ls -o work/
 total 24
--rw-r--r-- 1 sixfalls  4390912 Oct 17 04:38 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
+-rw-r--r-- 1 sixfalls  4396032 Oct 17 05:16 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
 -rw-r--r-- 1 sixfalls 11901952 Sep 13 23:43 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
 -rw-r--r-- 1 sixfalls   561152 Jan 15 00:41 <a href="https://github.com/6ixfalls/AstrahacksProject2">astrahacksproject2.js</a>
 -rw-r--r-- 1 sixfalls  1091584 Apr 27 10:03 <a href="https://github.com/6ixfalls/bloxstrap">bloxstrap.cs</a>
@@ -39,7 +39,7 @@ total 24
 -rw-r--r-- 1 sixfalls  3901440 Oct 16 06:35 <a href="https://github.com/6ixfalls/sixfolio">sixfolio.vue</a>
 -rw-r--r-- 1 sixfalls   495616 Aug 03 03:34 <a href="https://github.com/6ixfalls/sixshx">sixshx.ts</a>
 -rw-r--r-- 1 sixfalls    66560 Mar 03 22:02 <a href="https://github.com/6ixfalls/sync-in-roblox">sync-in-roblox.ts</a>
--rw-r--r-- 1 sixfalls   119808 Oct 16 22:52 <a href="https://github.com/6ixfalls/tailscale-svc-lb">tailscale-svc-lb.py</a>
+-rw-r--r-- 1 sixfalls   119808 Oct 17 05:30 <a href="https://github.com/6ixfalls/tailscale-svc-lb">tailscale-svc-lb.py</a>
 -rw-r--r-- 1 sixfalls   712704 Sep 30 21:03 <a href="https://github.com/6ixfalls/topicstudy">topicstudy.ts</a>
 -rw-r--r-- 1 sixfalls   159744 Oct 11 02:17 <a href="https://github.com/6ixfalls/workerboard">workerboard.ts</a>
 </pre>
