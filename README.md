@@ -18,7 +18,7 @@ I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua,
 <pre>
 ~ root# ls -o work/
 total 26
--rw-r--r-- 1 sixfalls  5113856 Jan 04 01:20 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
+-rw-r--r-- 1 sixfalls  5116928 Jan 04 02:09 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
 -rw-r--r-- 1 sixfalls 11901952 Sep 13 23:43 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
 -rw-r--r-- 1 sixfalls   561152 Jan 15 00:41 <a href="https://github.com/6ixfalls/AstrahacksProject2">astrahacksproject2.js</a>
 -rw-r--r-- 1 sixfalls  1091584 Apr 27 10:03 <a href="https://github.com/6ixfalls/bloxstrap">bloxstrap.cs</a>
@@ -31,7 +31,7 @@ total 26
 -rw-r--r-- 1 sixfalls    99328 Oct 04 03:46 <a href="https://github.com/6ixfalls/infrared-scaler">infrared-scaler.ts</a>
 -rw-r--r-- 1 sixfalls   316416 Oct 17 21:54 <a href="https://github.com/6ixfalls/og-banner">og-banner.ts</a>
 -rw-r--r-- 1 sixfalls    29696 Dec 29 06:04 <a href="https://github.com/6ixfalls/plex-debrid">plex-debrid.dockerfile</a>
--rw-r--r-- 1 sixfalls    74752 Oct 17 06:38 <a href="https://github.com/6ixfalls/QuickAbout">quickabout.js</a>
+-rw-r--r-- 1 sixfalls    74752 Jan 04 02:19 <a href="https://github.com/6ixfalls/QuickAbout">quickabout.js</a>
 -rw-r--r-- 1 sixfalls     4096 Aug 05 22:48 <a href="https://github.com/6ixfalls/railway-nocodb">railway-nocodb.dockerfile</a>
 -rw-r--r-- 1 sixfalls    34816 Aug 08 01:35 <a href="https://github.com/6ixfalls/railway-rabbitmq">railway-rabbitmq.js</a>
 -rw-r--r-- 1 sixfalls   133120 Aug 17 06:06 <a href="https://github.com/6ixfalls/railway-temporal">railway-temporal.ts</a>
