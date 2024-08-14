@@ -14,7 +14,7 @@
   "dependencies": {
     "@actions/core": "^1.2.6",
     "actions-toolkit": "^5.0.0",
-    "axios": "^1.6.3",
+    "axios": "^1.7.4",
     "js-yaml": "^4.1.0"
   },
   "devDependencies": {
