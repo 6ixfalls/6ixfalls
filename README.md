@@ -18,7 +18,7 @@ I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua,
 <pre>
 ~ root# ls -o work/
 total 29
--rw-r--r-- 1 sixfalls  7526400 Sep 22 08:07 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
+-rw-r--r-- 1 sixfalls  7526400 Sep 22 08:36 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
 -rw-r--r-- 1 sixfalls 11901952 Sep 13 23:43 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
 -rw-r--r-- 1 sixfalls   561152 Jan 15 00:41 <a href="https://github.com/6ixfalls/AstrahacksProject2">astrahacksproject2.js</a>
 -rw-r--r-- 1 sixfalls  1091584 Apr 27 10:03 <a href="https://github.com/6ixfalls/bloxstrap">bloxstrap.cs</a>
@@ -36,7 +36,7 @@ total 29
 -rw-r--r-- 1 sixfalls     4096 Aug 05 22:48 <a href="https://github.com/6ixfalls/railway-nocodb">railway-nocodb.dockerfile</a>
 -rw-r--r-- 1 sixfalls    34816 Aug 08 01:35 <a href="https://github.com/6ixfalls/railway-rabbitmq">railway-rabbitmq.js</a>
 -rw-r--r-- 1 sixfalls    51200 Jul 18 16:10 <a href="https://github.com/6ixfalls/railway-teleport">railway-teleport.dockerfile</a>
--rw-r--r-- 1 sixfalls   148480 Jul 22 18:25 <a href="https://github.com/6ixfalls/railway-temporal">railway-temporal.sh</a>
+-rw-r--r-- 1 sixfalls   148480 Sep 22 09:03 <a href="https://github.com/6ixfalls/railway-temporal">railway-temporal.sh</a>
 -rw-r--r-- 1 sixfalls   532480 Sep 19 00:10 <a href="https://github.com/6ixfalls/RPresence">rpresence.ts</a>
 -rw-r--r-- 1 sixfalls    12288 Sep 16 02:11 <a href="https://github.com/6ixfalls/seaweedfs-rclone">seaweedfs-rclone.dockerfile</a>
 -rw-r--r-- 1 sixfalls  4888576 Jun 21 06:31 <a href="https://github.com/6ixfalls/sixfolio">sixfolio.vue</a>
