@@ -18,7 +18,7 @@ I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua,
 <pre>
 ~ root# ls -o work/
 total 30
--rw-r--r-- 1 sixfalls  7883776 Oct 28 00:31 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
+-rw-r--r-- 1 sixfalls  7883776 Oct 28 01:34 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
 -rw-r--r-- 1 sixfalls 11901952 Sep 13 23:43 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
 -rw-r--r-- 1 sixfalls   561152 Jan 15 00:41 <a href="https://github.com/6ixfalls/AstrahacksProject2">astrahacksproject2.js</a>
 -rw-r--r-- 1 sixfalls  1091584 Apr 27 10:03 <a href="https://github.com/6ixfalls/bloxstrap">bloxstrap.cs</a>
@@ -27,7 +27,7 @@ total 30
 -rw-r--r-- 1 sixfalls    74752 Apr 30 00:19 <a href="https://github.com/6ixfalls/fleet-alerts">fleet-alerts.ts</a>
 -rw-r--r-- 1 sixfalls    19456 Dec 15 03:12 <a href="https://github.com/6ixfalls/free-domains">free-domains.hcl</a>
 -rw-r--r-- 1 sixfalls  1124352 May 21 05:13 <a href="https://github.com/6ixfalls/github-readme-stats">github-readme-stats.js</a>
--rw-r--r-- 1 sixfalls   249856 Oct 28 00:52 <a href="https://github.com/6ixfalls/homelab-gitops">homelab-gitops.hcl</a>
+-rw-r--r-- 1 sixfalls   250880 Oct 28 00:52 <a href="https://github.com/6ixfalls/homelab-gitops">homelab-gitops.hcl</a>
 -rw-r--r-- 1 sixfalls   100352 Apr 30 00:19 <a href="https://github.com/6ixfalls/infrared-scaler">infrared-scaler.ts</a>
 -rw-r--r-- 1 sixfalls   316416 Oct 17 21:54 <a href="https://github.com/6ixfalls/og-banner">og-banner.ts</a>
 -rw-r--r-- 1 sixfalls    44032 Oct 04 10:13 <a href="https://github.com/6ixfalls/plex-debrid">plex-debrid.dockerfile</a>
@@ -39,7 +39,7 @@ total 30
 -rw-r--r-- 1 sixfalls   156672 Sep 22 09:20 <a href="https://github.com/6ixfalls/railway-temporal">railway-temporal.sh</a>
 -rw-r--r-- 1 sixfalls     2048 Oct 18 05:18 <a href="https://github.com/6ixfalls/renovate-test">renovate-test.txt</a>
 -rw-r--r-- 1 sixfalls   532480 Sep 19 00:10 <a href="https://github.com/6ixfalls/RPresence">rpresence.ts</a>
--rw-r--r-- 1 sixfalls    12288 Oct 10 10:37 <a href="https://github.com/6ixfalls/seaweedfs-rclone">seaweedfs-rclone.dockerfile</a>
+-rw-r--r-- 1 sixfalls    12288 Oct 28 02:12 <a href="https://github.com/6ixfalls/seaweedfs-rclone">seaweedfs-rclone.dockerfile</a>
 -rw-r--r-- 1 sixfalls  4888576 Jun 21 06:31 <a href="https://github.com/6ixfalls/sixfolio">sixfolio.vue</a>
 -rw-r--r-- 1 sixfalls   988160 Apr 27 03:29 <a href="https://github.com/6ixfalls/sixshx">sixshx.ts</a>
 -rw-r--r-- 1 sixfalls    13312 Jan 04 04:55 <a href="https://github.com/6ixfalls/softshutdown">softshutdown.lua</a>
