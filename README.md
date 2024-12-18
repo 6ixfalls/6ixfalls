@@ -18,7 +18,7 @@ I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua,
 <pre>
 ~ root# ls -o work/
 total 32
--rw-r--r-- 1 sixfalls  8352768 Dec 18 05:36 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
+-rw-r--r-- 1 sixfalls  8352768 Dec 18 06:09 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
 -rw-r--r-- 1 sixfalls 11901952 Sep 13 23:43 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
 -rw-r--r-- 1 sixfalls   561152 Jan 15 00:41 <a href="https://github.com/6ixfalls/AstrahacksProject2">astrahacksproject2.js</a>
 -rw-r--r-- 1 sixfalls  1091584 Apr 27 10:03 <a href="https://github.com/6ixfalls/bloxstrap">bloxstrap.cs</a>
@@ -28,7 +28,7 @@ total 32
 -rw-r--r-- 1 sixfalls    74752 Apr 30 00:19 <a href="https://github.com/6ixfalls/fleet-alerts">fleet-alerts.ts</a>
 -rw-r--r-- 1 sixfalls    19456 Dec 15 03:12 <a href="https://github.com/6ixfalls/free-domains">free-domains.hcl</a>
 -rw-r--r-- 1 sixfalls  1124352 May 21 05:13 <a href="https://github.com/6ixfalls/github-readme-stats">github-readme-stats.js</a>
--rw-r--r-- 1 sixfalls   241664 Dec 18 05:23 <a href="https://github.com/6ixfalls/homelab-gitops">homelab-gitops.hcl</a>
+-rw-r--r-- 1 sixfalls   247808 Dec 18 05:23 <a href="https://github.com/6ixfalls/homelab-gitops">homelab-gitops.hcl</a>
 -rw-r--r-- 1 sixfalls   100352 Apr 30 00:19 <a href="https://github.com/6ixfalls/infrared-scaler">infrared-scaler.ts</a>
 -rw-r--r-- 1 sixfalls   316416 Oct 17 21:54 <a href="https://github.com/6ixfalls/og-banner">og-banner.ts</a>
 -rw-r--r-- 1 sixfalls    45056 Dec 16 10:14 <a href="https://github.com/6ixfalls/plex-debrid">plex-debrid.dockerfile</a>
@@ -46,7 +46,7 @@ total 32
 -rw-r--r-- 1 sixfalls    13312 Jan 04 04:55 <a href="https://github.com/6ixfalls/softshutdown">softshutdown.lua</a>
 -rw-r--r-- 1 sixfalls    60416 Dec 13 16:55 <a href="https://github.com/6ixfalls/supabase">supabase.pgsql</a>
 -rw-r--r-- 1 sixfalls    66560 Mar 03 22:02 <a href="https://github.com/6ixfalls/sync-in-roblox">sync-in-roblox.ts</a>
--rw-r--r-- 1 sixfalls   175104 Dec 16 10:17 <a href="https://github.com/6ixfalls/tailscale-svc-lb">tailscale-svc-lb.py</a>
+-rw-r--r-- 1 sixfalls   175104 Dec 18 06:23 <a href="https://github.com/6ixfalls/tailscale-svc-lb">tailscale-svc-lb.py</a>
 -rw-r--r-- 1 sixfalls   128000 Nov 17 01:46 <a href="https://github.com/6ixfalls/taonet">taonet.vue</a>
 -rw-r--r-- 1 sixfalls   713728 Dec 18 01:03 <a href="https://github.com/6ixfalls/topicstudy">topicstudy.ts</a>
 -rw-r--r-- 1 sixfalls   159744 Oct 11 02:17 <a href="https://github.com/6ixfalls/workerboard">workerboard.ts</a>
