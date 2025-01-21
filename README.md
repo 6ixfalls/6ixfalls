@@ -18,7 +18,7 @@ I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua,
 <pre>
 ~ root# ls -o work/
 total 32
--rw-r--r-- 1 sixfalls  8671232 Jan 21 09:07 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
+-rw-r--r-- 1 sixfalls  8671232 Jan 21 09:35 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
 -rw-r--r-- 1 sixfalls 11901952 Sep 13 23:43 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
 -rw-r--r-- 1 sixfalls   561152 Jan 15 00:41 <a href="https://github.com/6ixfalls/AstrahacksProject2">astrahacksproject2.js</a>
 -rw-r--r-- 1 sixfalls  1091584 Apr 27 10:03 <a href="https://github.com/6ixfalls/bloxstrap">bloxstrap.cs</a>
@@ -28,7 +28,7 @@ total 32
 -rw-r--r-- 1 sixfalls    74752 Apr 30 00:19 <a href="https://github.com/6ixfalls/fleet-alerts">fleet-alerts.ts</a>
 -rw-r--r-- 1 sixfalls    19456 Dec 15 03:12 <a href="https://github.com/6ixfalls/free-domains">free-domains.hcl</a>
 -rw-r--r-- 1 sixfalls  1124352 May 21 05:13 <a href="https://github.com/6ixfalls/github-readme-stats">github-readme-stats.js</a>
--rw-r--r-- 1 sixfalls   242688 Jan 18 02:44 <a href="https://github.com/6ixfalls/homelab-gitops">homelab-gitops.hcl</a>
+-rw-r--r-- 1 sixfalls   242688 Jan 21 09:43 <a href="https://github.com/6ixfalls/homelab-gitops">homelab-gitops.hcl</a>
 -rw-r--r-- 1 sixfalls   100352 Apr 30 00:19 <a href="https://github.com/6ixfalls/infrared-scaler">infrared-scaler.ts</a>
 -rw-r--r-- 1 sixfalls   316416 Oct 17 21:54 <a href="https://github.com/6ixfalls/og-banner">og-banner.ts</a>
 -rw-r--r-- 1 sixfalls    45056 Jan 15 13:22 <a href="https://github.com/6ixfalls/plex-debrid">plex-debrid.dockerfile</a>
