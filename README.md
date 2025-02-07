@@ -17,8 +17,8 @@ I'm Six, a Roblox, Web, and Backend Developer. I mainly work in TypeScript, Lua,
 <!--START_SECTION:projects-->
 <pre>
 ~ root# ls -o work/
-total 33
--rw-r--r-- 1 sixfalls  8852480 Feb 07 02:51 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
+total 34
+-rw-r--r-- 1 sixfalls  8852480 Feb 07 03:10 <a href="https://github.com/6ixfalls/6ixfalls">6ixfalls.js</a>
 -rw-r--r-- 1 sixfalls 11901952 Sep 13 23:43 <a href="https://github.com/6ixfalls/6ixfalls.github.io">6ixfalls.github.io.vue</a>
 -rw-r--r-- 1 sixfalls   561152 Jan 15 00:41 <a href="https://github.com/6ixfalls/AstrahacksProject2">astrahacksproject2.js</a>
 -rw-r--r-- 1 sixfalls  1091584 Apr 27 10:03 <a href="https://github.com/6ixfalls/bloxstrap">bloxstrap.cs</a>
@@ -30,6 +30,7 @@ total 33
 -rw-r--r-- 1 sixfalls  1124352 May 21 05:13 <a href="https://github.com/6ixfalls/github-readme-stats">github-readme-stats.js</a>
 -rw-r--r-- 1 sixfalls   247808 Feb 04 18:01 <a href="https://github.com/6ixfalls/homelab-gitops">homelab-gitops.hcl</a>
 -rw-r--r-- 1 sixfalls   100352 Apr 30 00:19 <a href="https://github.com/6ixfalls/infrared-scaler">infrared-scaler.ts</a>
+-rw-r--r-- 1 sixfalls        0 Feb 07 03:20 <a href="https://github.com/6ixfalls/kairos-bundles">kairos-bundles.txt</a>
 -rw-r--r-- 1 sixfalls   316416 Oct 17 21:54 <a href="https://github.com/6ixfalls/og-banner">og-banner.ts</a>
 -rw-r--r-- 1 sixfalls    44032 Feb 06 13:48 <a href="https://github.com/6ixfalls/plex-debrid">plex-debrid.dockerfile</a>
 -rw-r--r-- 1 sixfalls   105472 Jul 01 02:29 <a href="https://github.com/6ixfalls/QuickAbout">quickabout.js</a>
